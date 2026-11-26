@@ -2,14 +2,17 @@
 
 ```bash
 brew tap aazh2026/vlab
-brew install vlab
+brew install aazh2026/vlab/vlab
 ```
 
-Or run it without installing:
+The fully-qualified formula name is required — `brew install vlab` alone is
+ambiguous because another tap also ships a `vlab` formula.
+
+Then:
 
 ```bash
-brew install aazh2026/vlab/vlab
 vlab --help
+vlab test
 ```
 
 ## Formulae
